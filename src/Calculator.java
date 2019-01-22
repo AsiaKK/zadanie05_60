@@ -25,5 +25,4 @@ public class Calculator {
         System.out.println("Kwadrat z liczby a lub liczby b =   " + count);
     }
 
-
 }

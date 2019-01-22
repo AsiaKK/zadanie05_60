@@ -8,6 +8,7 @@ public class CalculatorChecker {
         double number1 = scanner.nextDouble();
         System.out.println("Podaj drugą liczbę: ");
         double number2 = scanner.nextDouble();
+        scanner.close();
 
         Calculator calculator = new Calculator();
         calculator.performOperation(number1, number2);
